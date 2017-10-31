@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.dead, .alive {
+ border: 1px solid #333;
+
+width: 12px;
+height: 12px;
+
+
+}
+.dead {
+  background: white;
+  float: left;    
+  
+}
+.dead:hover {
+  background:#f0ad4e;
+}
+.App {
+  margin: 0 auto;
+
+  width: 80%;
+  text-align: center;
+}
+.alive {
+  background: #f0ad4e;
+  float: left;
+}
+table {
+  margin: 0 auto;
+}
+Button {
+  margin-top: 0.5em;
+  width: 100px; 
+
+  text-align: center; 
+}
+a, a:hover, a:visited {
+  color: #f0ad4e;
+  text-decoration: none;
+}
